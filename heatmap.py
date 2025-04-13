@@ -133,7 +133,7 @@ other = sorted(set([g.strip() for g in other]))
 print("\nFound the following activities: ", '\n'.join(other))
 exit
 
-ACTIVITIES=["reading", "math", "chess", "electronics", "russian"]
+ACTIVITIES=["reading", "math", "chess", "coding", "electronics", "russian"]
 
 imgs = []
 for a in ACTIVITIES:
